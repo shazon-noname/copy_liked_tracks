@@ -75,11 +75,5 @@ Make your changes.
 Commit your changes (git commit -m 'Add new feature').
 Push to the branch (git push origin feature-name).
 Open a Pull Request.
-Screenshots (Optional)
-If you want, you can add images of the app in action to make the README more engaging. Just upload the images to the repository and add them with Markdown:
 
-markdown
-Copy code
-![Playlist Creation Screenshot](images/screenshot.png)
-Conclusion
 This project provides a simple way to manage your Spotify playlists by copying all liked songs to a new playlist. It's fully customizable, and you can extend it to suit your needs.
