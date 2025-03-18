@@ -1,4 +1,3 @@
-USED CHATGPT TO WRITE THIS DOCUMENTATION !!!
 
 
 # Spotify Playlist Copier
