@@ -2,9 +2,9 @@ import spotipy
 from spotipy.oauth2 import SpotifyOAuth
 
 
-CLIENT_ID = ''
-CLIENT_SECRET = ''
-REDIRECT_URI = 'http://:8888/callback'
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+REDIRECT_URI = ""
 
 # Авторизация
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
@@ -16,7 +16,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 
 
 liked_tracks = []
-results = sp.current_user_saved_tracks(limit=100)
+results = sp.current_user_saved_tracks(limit=50, market='from_token')
 while results:
     for item in results['items']:
         liked_tracks.append(item['track']['id'])
